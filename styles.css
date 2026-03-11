@@ -1,0 +1,224 @@
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* ============================================
+   COLOR PALETTE
+   ============================================
+   Dark Background: #2B2D42  (dark navy/slate)
+   Medium Dark:     #3D3F56  (slightly lighter)
+   Light Section:   #F0F0F0  (off white)
+   Accent:          #E74C3C  (red accent)
+   Link Color:      #E74C3C  (red for links)
+   White:           #FFFFFF
+   ============================================ */
+
+/* ============================================
+   GLOBAL STYLES
+   ============================================ */
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #333333;
+}
+.main-nav {
+    background-color: #1a1a2e;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.main-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 5px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: #E74C3C;
+}
+
+.content-wrap {
+    padding: 50px;
+    overflow: hidden;
+}
+.main-header .content-wrap {
+    padding: 30px 50px;
+}
+
+.section-title {
+    font-family: 'Caveat', cursive;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+}
+
+.header-title {
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    color: #CCCCCC;
+    margin: 0 0 10px 0;
+}
+
+.main-header p {
+    margin-top: 5px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+a {
+    color: #E74C3C;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+/* ============================================
+   HEADER
+   ============================================ */
+.main-header {
+    background-color: #2B2D42;
+    color: #FFFFFF;
+}
+
+.main-header .column-wide {
+    text-align: left;
+    padding-top: 30px;
+}
+
+.main-header h1 {
+    color: #FFFFFF;
+}
+
+.header-title {
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
+    color: #CCCCCC;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    border: 4px solid #FFFFFF;
+}
+.main-header .column-narrow {
+    min-height: 0;
+}
+
+.main-header .column-wide {
+    min-height: 0;
+    padding-top: 20px;
+}
+
+/* ============================================
+   WORK EXPERIENCE
+   ============================================ */
+.work-experience {
+    background-color: #F0F0F0;
+    color: #333333;
+}
+
+.work-experience .section-title {
+    color: #2B2D42;
+}
+
+/* ============================================
+   EDUCATION
+   ============================================ */
+.education {
+    background:
+     rgba(10, 12, 30, 0.85),
+     rgba(43, 45, 66, 0.85);
+    background-color: #3D3F56;
+    background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?w=1200&q=80');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: #FFFFFF;
+    
+}
+
+.education .section-title {
+    color: #FFFFFF;
+}
+
+.education h3 {
+    color: #FFFFFF;
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.main-footer {
+    background-color: #2B2D42;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main-footer .section-title {
+    color: #FFFFFF;
+}
+
+.main-footer a {
+    color: #E74C3C;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
